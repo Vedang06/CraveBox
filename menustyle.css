@@ -1,0 +1,184 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+    justify-content: space-between
+}
+
+nav ul li {
+    margin: 20px;
+    transition: transform .3s ease
+}
+
+ul li:hover {
+    transform: translateY(-2px)
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff
+}
+
+#sticktop {
+    padding: 15px;
+    display: flex;
+    width: 100%
+}
+
+#sticktop img {
+    cursor: pointer
+}
+
+h1 {
+    margin: 50px;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between
+}
+
+.navbar img {
+    margin-top: 6px;
+    margin-left: 20px;
+    height: 50px;
+    width: auto;
+    justify-content: flex-start
+}
+
+#profile {
+    height: 30px;
+    width: auto;
+    padding: none;
+    margin: 10px;
+    transition: transform .3s ease
+}
+
+#profile:hover {
+    transform: translateY(-3px)
+}
+
+#profile {
+    height: 30px;
+    width: auto;
+    padding: none;
+    margin: 10px;
+    transition: transform .3s ease
+}
+
+#profile:hover {
+    transform: translateY(-3px)
+}
+
+header button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    cursor: pointer;
+    transition: background-color .5s ease, color .5s ease
+}
+
+header button:hover {
+    background-color: #fff;
+    color: #000
+}
+
+.navbar button {
+    background-color: transparent;
+    border: none
+}
+
+.menulist{
+    padding-top: 90px;
+    color: black;
+    font-size: larger;
+}
+
+.menulist h1{
+    padding-left: 50px;
+}
+
+.snack-grid {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;  /* Space between items */
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+.snack-item {
+    color: white;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+    transition: transform 0.2s;
+    width: 90%;
+    height:200px;
+    font-weight: 700;
+}
+
+.snack-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    cursor: pointer;
+}
+
+#daliya{background-image: url('media/daliya.jpg');}
+
+#vadapav {background-image: url('media/vadapav.jpg');}
+
+#khichdi {background-image: url('media/sabudanakhichdi.jpg');}
+
+#idli {background-image: url('media/idli.jpg');}
+
+#pohe {background-image: url('media/pohe.jpg');}
+
+#chilla {background-image: url('media/chilla.jpg');}
+
+#oats {background-image: url('media/veggieoats.jpg');}
+
+#upma {background-image: url('media/upma.jpg');}
+
+#thepla {background-image: url('media/thepla.jpg');}
+
+#pesarattu {background-image: url('media/pesarattu.jpg');}
+
+#corn {background-image: url('media/masalacorn.jpg');}
+
+#dosa {background-image: url('media/ragidosa.jpg');}
+
+#khandvi {background-image: url('media/khandvi.jpg');}
+
+#pulao {background-image: url('media/pulao.jpg');}
+
+#moongsalad {background-image: url('media/moongsalad.jpg');}
+
+#tikka {background-image: url('media/paneertikka.jpg');}
+
